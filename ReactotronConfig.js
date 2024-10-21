@@ -4,7 +4,7 @@ import Reactotron from 'reactotron-react-native';
 import { trackGlobalErrors } from 'reactotron-react-native';
 
 if (__DEV__) {
-  Reactotron.setAsyncStorageHandler(AsyncStorage.setItem)
+  Reactotron.setAsyncStorageHandler(AsyncStorage) // Correct: use AsyncStorage object
     .configure() // controls connection & communication settings
     .useReactNative() // add all built-in react native plugins
     .use(trackGlobalErrors()) // intercept global errors

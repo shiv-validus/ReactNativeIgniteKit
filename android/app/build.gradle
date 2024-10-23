@@ -2,6 +2,15 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [
+    productiondebug: ".env.production",
+    productionrelease: ".env.production",
+    developmentrelease: ".env.development",
+    developmentdebug: ".env.development",
+    stagingrelease: ".env.staging",
+    stagingdebug: ".env.staging"
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -77,6 +86,22 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            applicationIdSuffix "rn2023reduxdetox.production"
+            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+        }
+        staging {
+            applicationIdSuffix "rn2023reduxdetox.staging"
+            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+        }
+        development {
+            applicationIdSuffix "rn2023reduxdetox.development"
+            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+        }
+    }
+
     namespace "com.rnnewarchitecturedemo"
     defaultConfig {
         applicationId "com.rnnewarchitecturedemo"
@@ -103,6 +128,8 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            matchingFallbacks = ['debug', 'release']
+
         }
     }
 }
@@ -117,3 +144,5 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+

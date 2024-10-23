@@ -1,0 +1,32 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches:
+      - dev
+      - sit
+      - main
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3  # Use the latest stable version
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3  # Use the latest stable version
+
+      - name: Cache Yarn dependencies
+        uses: c-hive/gha-yarn-cache@v1  # Currently, there's no later version, so using v1 is fine
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run Lefthook CI checks
+        run: yarn lefthook run ci-hook
+
+      - name: Run tests
+        run: yarn test-ci

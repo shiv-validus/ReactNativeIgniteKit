@@ -1,0 +1,28 @@
+pre-push:
+  commands:
+    packages-audit:
+      tags: frontend security
+      run: yarn audit  # Audit for vulnerabilities in the project dependencies
+
+pre-commit:
+  parallel: true  # Run commands in parallel
+  commands:
+    eslint:
+      glob: "*.{js,ts,jsx,tsx}"  # Specify file types for ESLint
+      run: yarn eslint {staged_files}  # Run ESLint on staged files
+    # You can keep or remove these based on your project's needs
+    rubocop:
+      tags: backend style
+      glob: "*.rb"  # If you're using Ruby, keep this
+      exclude: '(^|/)(application|routes)\.rb$'
+      run: bundle exec rubocop --force-exclusion {all_files}
+    govet:
+      tags: backend style
+      files: git ls-files -m
+      glob: "*.go"  # If you're using Go, keep this
+      run: go vet {files}
+  scripts:
+    "hello.js":
+      runner: node
+    "any.go":
+      runner: go run

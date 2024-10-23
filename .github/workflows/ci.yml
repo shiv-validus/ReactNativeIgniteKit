@@ -36,10 +36,10 @@ jobs:
         run: yarn install
 
       - name: Run Lefthook CI checks
-        run: yarn lefthook run ci-hook
+        run: yarn lefthook run ci-hook  # This step runs Lefthook's CI hook defined in .lefthook.yml
 
       - name: Run tests
-        run: yarn test-ci
+        run: yarn test-ci  # Ensure that your package.json has this script defined
 
       # Optional: Add a step for building the project (if applicable)
       # - name: Build Project

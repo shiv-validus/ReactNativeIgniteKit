@@ -14,13 +14,23 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Use the latest stable version
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3  # Use the latest stable version
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Use Node.js version 18.x
+
+      - name: Install Yarn
+        run: npm install --global yarn@1.22.22  # Specify Yarn version 1.22.22
 
       - name: Cache Yarn dependencies
-        uses: c-hive/gha-yarn-cache@v1  # Currently, there's no later version, so using v1 is fine
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies
         run: yarn install
@@ -30,3 +40,19 @@ jobs:
 
       - name: Run tests
         run: yarn test-ci
+
+      # Optional: Add a step for building the project (if applicable)
+      # - name: Build Project
+      #   run: yarn build
+
+      # Optional: Add a step for running end-to-end tests (if applicable)
+      # - name: Run End-to-End Tests
+      #   run: yarn test:e2e  # Adjust command as necessary
+
+      # Optional: Add a step for iOS build (requires macOS runner)
+      # - name: Build iOS
+      #   run: |
+      #     cd ios
+      #     pod install
+      #     cd ..
+      #     yarn run ios  # Adjust command as necessary

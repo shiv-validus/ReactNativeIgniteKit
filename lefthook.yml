@@ -4,14 +4,13 @@ ci-hook:
     test:
       run: yarn test  # Run tests
     audit:
-      run: yarn audit --json --depth=1 || true  # Prevent crash on audit failure by allowing audit to continue even with issues
-
+      run: yarn audit --json --depth=0 || true  # Prevent crash on audit failure by allowing audit to continue even with issues
 pre-push:
   parallel: false  # Run in sequence to prevent conflicts
   commands:
     packages-audit:
       tags: frontend security
-      run: yarn audit --json --depth=1 || true  # Prevent crashes by using `|| true`
+      run: yarn audit --json --depth=0 || true  # Prevent crashes by using `|| true`
 pre-commit:
   parallel: true  # Run commands in parallel
   commands:

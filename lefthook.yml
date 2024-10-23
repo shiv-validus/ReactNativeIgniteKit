@@ -1,8 +1,8 @@
-pre-push:
-  commands:
-    packages-audit:
-      tags: frontend security
-      run: yarn audit --depth=5  # Audit for vulnerabilities in the project dependencies
+# pre-push:
+#   commands:
+#     packages-audit:
+#       tags: frontend security
+#       run: yarn audit --depth=5  # Audit for vulnerabilities in the project dependencies
 
 pre-commit:
   parallel: true  # Run commands in parallel

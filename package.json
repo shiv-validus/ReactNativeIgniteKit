@@ -26,7 +26,8 @@
     "androidProductionDebugAPK": "yarn clean && cd android && ./gradlew assembleProductionDebug && open ./app/build/outputs/apk/production/debug",
     "androidProductionReleaseAPK": "yarn clean && cd android && ./gradlew assembleProductionRelease && open ./app/build/outputs/apk/production/release",
     "androidStagingDebugAPK": "yarn clean && cd android && ./gradlew assembleStagingDebug && open ./app/build/outputs/apk/staging/debug",
-    "androidStagingReleaseAPK": "yarn clean && cd android && ./gradlew assembleStagingRelease && open ./app/build/outputs/apk/staging/release"
+    "androidStagingReleaseAPK": "yarn clean && cd android && ./gradlew assembleStagingRelease && open ./app/build/outputs/apk/staging/release",
+    "android:clean": "cd android && ./gradlew clean && rm -rf app/build .gradle build"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.0.0",
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@react-native/babel-preset": "0.75.4",

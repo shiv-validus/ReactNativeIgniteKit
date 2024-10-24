@@ -89,16 +89,16 @@ android {
     flavorDimensions "default"
     productFlavors {
         production {
-            applicationIdSuffix "rn2023reduxdetox.production"
-            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+            applicationIdSuffix "rnnewarchitecturedemo.production"
+            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
         }
         staging {
-            applicationIdSuffix "rn2023reduxdetox.staging"
-            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+            applicationIdSuffix "rnnewarchitecturedemo.staging"
+            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
         }
         development {
-            applicationIdSuffix "rn2023reduxdetox.development"
-            resValue "string", "build_config_package", "com.rn2023reduxdetox"
+            applicationIdSuffix "rnnewarchitecturedemo.development"
+            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
         }
     }
 

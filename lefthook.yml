@@ -1,0 +1,30 @@
+ci-hook:
+  parallel: true
+  commands:
+    test:
+      run: yarn test  # Keep this for your React Native tests
+    # Temporarily remove the audit command, we will add it back later once stable
+    # audit:
+    #   run: yarn audit --json --depth=0 || true  # Avoid crashing on audit failure
+
+pre-push:
+  parallel: false  # Run in sequence to prevent conflicts
+  commands:
+    # Temporarily remove the audit command, as it could be crashing your setup
+    # packages-audit:
+    #   tags: frontend security
+    #   run: yarn audit --json --depth=0 || true
+
+pre-commit:
+  parallel: true  # Run commands in parallel to save time
+  commands:
+    eslint:
+      glob: "*.{js,ts,jsx,tsx}"  # Specify the file types for ESLint (React Native related)
+      run: yarn eslint {staged_files}  # Run ESLint on the staged files
+
+  # Remove non-React Native commands such as Ruby and Go for now
+  # You can reintroduce these if needed, but it's unlikely you need them for React Native
+
+scripts:
+  "hello.js":
+    runner: node  # Keep the Node.js script for potential utility needs

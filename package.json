@@ -8,12 +8,32 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install"
+    "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install",
+    "audit": "yarn audit",
+    "clean": "cd android && ./gradlew clean",
+    "test-ci": "yarn test --ci",
+    "android:staging": "npx react-native run-android --mode=stagingDebug --appId rnnewarchitecturedemo.staging",
+    "android:staging-release": "npx react-native run-android --mode=stagingRelease --appId rnnewarchitecturedemo.staging",
+    "android:dev": "npx react-native run-android --mode=developmentDebug --appId rnnewarchitecturedemo.development",
+    "android:dev-release": "npx react-native run-android --mode=developmentRelease --appId rnnewarchitecturedemo.development",
+    "android:prod": "npx react-native run-android --mode=productionDebug --appId rnnewarchitecturedemo.production",
+    "android:prod-release": "npx react-native run-android --mode=productionRelease --appId rnnewarchitecturedemo.production",
+    "ba": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "ra": "rm -rf android/app/src/main/res/drawable-{hdpi,mdpi,xhdpi,xxhdpi,xxxhdpi,raw} && npx jetify",
+    "androidProductionReleaseBundle": "yarn clean && cd android && ./gradlew bundleProductionRelease && open ./app/build/outputs/bundle/production/release",
+    "androidDevelopmentDebugAPK": "yarn clean && cd android && ./gradlew assembleDevelopmentDebug && open ./app/build/outputs/apk/development/debug",
+    "androidDevelopmentReleaseAPK": "yarn clean && cd android && ./gradlew assembleDevelopmentRelease && open ./app/build/outputs/apk/development/release",
+    "androidProductionDebugAPK": "yarn clean && cd android && ./gradlew assembleProductionDebug && open ./app/build/outputs/apk/production/debug",
+    "androidProductionReleaseAPK": "yarn clean && cd android && ./gradlew assembleProductionRelease && open ./app/build/outputs/apk/production/release",
+    "androidStagingDebugAPK": "yarn clean && cd android && ./gradlew assembleStagingDebug && open ./app/build/outputs/apk/staging/debug",
+    "androidStagingReleaseAPK": "yarn clean && cd android && ./gradlew assembleStagingRelease && open ./app/build/outputs/apk/staging/release"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.0.0",
     "react": "18.3.1",
     "react-native": "0.75.4",
+    "react-native-config": "^1.5.3",
+    "react-native-fast-image": "^8.6.3",
     "reactotron-react-native": "^5.1.9"
   },
   "devDependencies": {
@@ -29,6 +49,7 @@
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
+    "lefthook": "^1.8.1",
     "prettier": "2.8.8",
     "react-test-renderer": "18.3.1",
     "typescript": "5.0.4"

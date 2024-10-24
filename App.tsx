@@ -10,7 +10,7 @@ import {
   Alert,
   Linking,
 } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 import Config from 'react-native-config';
 
 function App(): React.JSX.Element {
@@ -45,8 +45,9 @@ function App(): React.JSX.Element {
         <Text style={styles.title}>Welcome to Netflix App!</Text>
         <Text style={styles.subtitle}>Current Environment:</Text>
         <Text style={styles.apiUrl}>{apiUrl}</Text>
-        <TouchableOpacity style={styles.button} onPress={() => handleLearnMorePress()}
-        >
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => handleLearnMorePress()}>
           <Text style={styles.buttonText}>Learn More</Text>
         </TouchableOpacity>
       </View>

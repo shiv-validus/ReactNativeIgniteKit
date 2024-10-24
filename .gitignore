@@ -72,3 +72,11 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# Ignore environment files
+.env
+.env.development
+.env.staging
+.env.production
+

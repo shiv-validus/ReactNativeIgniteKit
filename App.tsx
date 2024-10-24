@@ -5,7 +5,7 @@ import {
   useColorScheme,
   Text,
   StyleSheet,
-  View
+  View,
 } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import Config from 'react-native-config';

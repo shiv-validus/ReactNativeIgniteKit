@@ -15,9 +15,9 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "RnNewArchitectureDemo.app"
-                     BlueprintName = "RnNewArchitectureDemo"
+                     BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+                     BuildableName = "RnNewArchitectureDemo dev.app"
+                     BlueprintName = "RnNewArchitectureDemo dev"
                      ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -31,9 +31,9 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "RnNewArchitectureDemo.app"
-                     BlueprintName = "RnNewArchitectureDemo"
+                     BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+                     BuildableName = "RnNewArchitectureDemo dev.app"
+                     BlueprintName = "RnNewArchitectureDemo dev"
                      ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -49,9 +49,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RnNewArchitectureDemo.app"
-               BlueprintName = "RnNewArchitectureDemo"
+               BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+               BuildableName = "RnNewArchitectureDemo dev.app"
+               BlueprintName = "RnNewArchitectureDemo dev"
                ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -78,9 +78,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RnNewArchitectureDemo.app"
-            BlueprintName = "RnNewArchitectureDemo"
+            BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+            BuildableName = "RnNewArchitectureDemo dev.app"
+            BlueprintName = "RnNewArchitectureDemo dev"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,9 +95,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RnNewArchitectureDemo.app"
-            BlueprintName = "RnNewArchitectureDemo"
+            BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+            BuildableName = "RnNewArchitectureDemo dev.app"
+            BlueprintName = "RnNewArchitectureDemo dev"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

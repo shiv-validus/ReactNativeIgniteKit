@@ -14,7 +14,26 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'RnNewArchitectureDemo' do
+
+abstract_target 'RnNewArchitectureDemoBase' do
+  # Shared pods go here, if any
+  
+  target 'RnNewArchitectureDemo' do
+    # Pods for RnNewArchitectureDemo
+  end
+
+  target 'RnNewArchitectureDemo dev' do
+    # Pods for RnNewArchitectureDemo dev
+  end
+
+  target 'RnNewArchitectureDemo stag' do
+    # Pods for RnNewArchitectureDemo sit
+  end
+
+  target 'RnNewArchitectureDemo prod' do
+    # Pods for RnNewArchitectureDemo prod
+  end
+  
   config = use_native_modules!
   pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
   use_react_native!(

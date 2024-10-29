@@ -6,6 +6,40 @@
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "rm &quot;${CONFIGURATION_BUILD_DIR}/${INFOPLIST_PATH}&quot;&#10;echo &quot;.env.staging&quot; &gt; /tmp/envfile&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "58BDA2FD2CCF866F00DF7710"
+                     BuildableName = "RnNewArchitectureDemo stag.app"
+                     BlueprintName = "RnNewArchitectureDemo stag"
+                     ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "&quot;${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb&quot; &quot;${SRCROOT}/..&quot; &quot;${SRCROOT}/tmp.xcconfig&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "58BDA2FD2CCF866F00DF7710"
+                     BuildableName = "RnNewArchitectureDemo stag.app"
+                     BlueprintName = "RnNewArchitectureDemo stag"
+                     ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,9 +49,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RnNewArchitectureDemo.app"
-               BlueprintName = "RnNewArchitectureDemo"
+               BlueprintIdentifier = "58BDA2FD2CCF866F00DF7710"
+               BuildableName = "RnNewArchitectureDemo stag.app"
+               BlueprintName = "RnNewArchitectureDemo stag"
                ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +78,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RnNewArchitectureDemo.app"
-            BlueprintName = "RnNewArchitectureDemo"
+            BlueprintIdentifier = "58BDA2FD2CCF866F00DF7710"
+            BuildableName = "RnNewArchitectureDemo stag.app"
+            BlueprintName = "RnNewArchitectureDemo stag"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +95,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RnNewArchitectureDemo.app"
-            BlueprintName = "RnNewArchitectureDemo"
+            BlueprintIdentifier = "58BDA2FD2CCF866F00DF7710"
+            BuildableName = "RnNewArchitectureDemo stag.app"
+            BlueprintName = "RnNewArchitectureDemo stag"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

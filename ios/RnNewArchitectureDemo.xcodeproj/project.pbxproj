@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RnNewArchitectureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RnNewArchitectureDemoTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-RnNewArchitectureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RnNewArchitectureDemo.a */; };
+		1162447BDBAB9960663D2C46 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5E17F6EFB3C64C2E9007FA /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		42105F093CF92F0BC6D0D39E /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F4E5CFB90A66C07855BFD1 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a */; };
+		4D9846CA1001C28AFF34F2ED /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B876A3FB4E3CD6460FD7553A /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a */; };
 		58BDA2ED2CCF866D00DF7710 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		58BDA2EE2CCF866D00DF7710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		58BDA2F22CCF866D00DF7710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -27,9 +29,9 @@
 		58BDA3182CCF867300DF7710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		58BDA3192CCF867300DF7710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		58BDA31A2CCF867300DF7710 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 54FB7891804E3AB387E32E27 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		92826ED6DC8F37C6BCC34E5B /* libPods-RnNewArchitectureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RnNewArchitectureDemo.a */; };
+		9E20F5FF34AA4134FF643BFF /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E798846C4386ED32599F2F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a */; };
+		B543424A594AFB3615A4EFE0 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8AB3913BA5F46B0EC39A1F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a */; };
 		C999AAEC7010428F20110704 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 54FB7891804E3AB387E32E27 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,10 @@
 		00E356EE1AD99517003FC87E /* RnNewArchitectureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RnNewArchitectureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RnNewArchitectureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnNewArchitectureDemoTests.m; sourceTree = "<group>"; };
+		0742DBBF3FA09C929AAFF390 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.debug.xcconfig"; sourceTree = "<group>"; };
+		0E8AB3913BA5F46B0EC39A1F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E798846C4386ED32599F2F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11667D51FDE09B3C92FB68D3 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RnNewArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnNewArchitectureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RnNewArchitectureDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RnNewArchitectureDemo/AppDelegate.mm; sourceTree = "<group>"; };
@@ -54,21 +60,28 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RnNewArchitectureDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RnNewArchitectureDemo/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RnNewArchitectureDemo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1713925E4C9534CE7A2AEB68 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.release.xcconfig"; sourceTree = "<group>"; };
+		2301ED84BDC8D662F73498F0 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.release.xcconfig"; sourceTree = "<group>"; };
+		301596ABB39CC37B5DEB619B /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		54FB7891804E3AB387E32E27 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RnNewArchitectureDemo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58BDA2FC2CCF866D00DF7710 /* RnNewArchitectureDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RnNewArchitectureDemo copy-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo copy-Info.plist"; sourceTree = "<absolute>"; };
-		58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo copy 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58BDA30F2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RnNewArchitectureDemo copy 2-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo copy 2-Info.plist"; sourceTree = "<absolute>"; };
-		58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo copy 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo copy 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58BDA3222CCF867300DF7710 /* RnNewArchitectureDemo copy 3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RnNewArchitectureDemo copy 3-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo copy 3-Info.plist"; sourceTree = "<absolute>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RnNewArchitectureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BDA2FC2CCF866D00DF7710 /* RnNewArchitectureDemo dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "RnNewArchitectureDemo dev-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo dev-Info.plist"; sourceTree = "<absolute>"; };
+		58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo stag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo stag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BDA30F2CCF866F00DF7710 /* RnNewArchitectureDemo stag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "RnNewArchitectureDemo stag-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo stag-Info.plist"; sourceTree = "<absolute>"; };
+		58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RnNewArchitectureDemo prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BDA3222CCF867300DF7710 /* RnNewArchitectureDemo prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "RnNewArchitectureDemo prod-Info.plist"; path = "/Users/shiv/Validus-Projects/RnNewArchitectureDemo/ios/RnNewArchitectureDemo prod-Info.plist"; sourceTree = "<absolute>"; };
+		78F4E5CFB90A66C07855BFD1 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RnNewArchitectureDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC9B6708074990516FE02CF1 /* Pods-RnNewArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemo.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C55D928B67BD233D742998BD /* Pods-RnNewArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemo.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		838A3D671DC441B5FFA3C3A2 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C5E17F6EFB3C64C2E9007FA /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E003C75A916C53328D712DD /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA8E964B877FE297DFAD3772 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.release.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.release.xcconfig"; sourceTree = "<group>"; };
+		B876A3FB4E3CD6460FD7553A /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98226125106B8E4B0EC439F /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.debug.xcconfig"; sourceTree = "<group>"; };
+		BA994064877A697386E98AEC /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BA0160FCCCC4BA27EDBB26 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDEE5C23678AC5EC808F677C /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.debug.xcconfig"; path = "Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a in Frameworks */,
+				42105F093CF92F0BC6D0D39E /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-RnNewArchitectureDemo.a in Frameworks */,
-				92826ED6DC8F37C6BCC34E5B /* libPods-RnNewArchitectureDemo.a in Frameworks */,
+				1162447BDBAB9960663D2C46 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B543424A594AFB3615A4EFE0 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E20F5FF34AA4134FF643BFF /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9846CA1001C28AFF34F2ED /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RnNewArchitectureDemo.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.a */,
+				9C5E17F6EFB3C64C2E9007FA /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.a */,
+				0E8AB3913BA5F46B0EC39A1F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.a */,
+				B876A3FB4E3CD6460FD7553A /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.a */,
+				78F4E5CFB90A66C07855BFD1 /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.a */,
+				10E798846C4386ED32599F2F /* libPods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,9 +189,9 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				58BDA2FC2CCF866D00DF7710 /* RnNewArchitectureDemo copy-Info.plist */,
-				58BDA30F2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2-Info.plist */,
-				58BDA3222CCF867300DF7710 /* RnNewArchitectureDemo copy 3-Info.plist */,
+				58BDA2FC2CCF866D00DF7710 /* RnNewArchitectureDemo dev-Info.plist */,
+				58BDA30F2CCF866F00DF7710 /* RnNewArchitectureDemo stag-Info.plist */,
+				58BDA3222CCF867300DF7710 /* RnNewArchitectureDemo prod-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,9 +203,9 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* RnNewArchitectureDemo.app */,
 				00E356EE1AD99517003FC87E /* RnNewArchitectureDemoTests.xctest */,
-				58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo copy.app */,
-				58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2.app */,
-				58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo copy 3.app */,
+				58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo dev.app */,
+				58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo stag.app */,
+				58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo prod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,10 +213,18 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5B7EB9410499542E8C5724F5 /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.release.xcconfig */,
-				C55D928B67BD233D742998BD /* Pods-RnNewArchitectureDemo.debug.xcconfig */,
-				AC9B6708074990516FE02CF1 /* Pods-RnNewArchitectureDemo.release.xcconfig */,
+				301596ABB39CC37B5DEB619B /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.debug.xcconfig */,
+				838A3D671DC441B5FFA3C3A2 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.release.xcconfig */,
+				0742DBBF3FA09C929AAFF390 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.debug.xcconfig */,
+				1713925E4C9534CE7A2AEB68 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.release.xcconfig */,
+				E9BA0160FCCCC4BA27EDBB26 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.debug.xcconfig */,
+				AA8E964B877FE297DFAD3772 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.release.xcconfig */,
+				B98226125106B8E4B0EC439F /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.debug.xcconfig */,
+				2301ED84BDC8D662F73498F0 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo sit.release.xcconfig */,
+				BA994064877A697386E98AEC /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.debug.xcconfig */,
+				9E003C75A916C53328D712DD /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.release.xcconfig */,
+				EDEE5C23678AC5EC808F677C /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.debug.xcconfig */,
+				11667D51FDE09B3C92FB68D3 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -210,12 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemoTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				8288039AE02DE5D9BBD8B413 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				C27403DAE051F2D890D4D58B /* [CP] Embed Pods Frameworks */,
+				10D8852B896D2E5B5F2B30F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,13 +257,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				6D14A1C3C87B9332D9FC2A81 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				E7C9ADAE3B026A428A6A2163 /* [CP] Embed Pods Frameworks */,
+				079F27EA451502E71B1576BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,58 +274,67 @@
 			productReference = 13B07F961A680F5B00A75B9A /* RnNewArchitectureDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58BDA2EA2CCF866D00DF7710 /* RnNewArchitectureDemo copy */ = {
+		58BDA2EA2CCF866D00DF7710 /* RnNewArchitectureDemo dev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58BDA2F82CCF866D00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy" */;
+			buildConfigurationList = 58BDA2F82CCF866D00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo dev" */;
 			buildPhases = (
+				D52DB2285EC70DB6C66278F6 /* [CP] Check Pods Manifest.lock */,
 				58BDA2EC2CCF866D00DF7710 /* Sources */,
 				58BDA2EF2CCF866D00DF7710 /* Frameworks */,
 				58BDA2F12CCF866D00DF7710 /* Resources */,
 				58BDA2F52CCF866D00DF7710 /* Bundle React Native code and images */,
+				C125031F9DFF09212ED3F151 /* [CP] Embed Pods Frameworks */,
+				35BAAF89DF45AC034313CE19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "RnNewArchitectureDemo copy";
+			name = "RnNewArchitectureDemo dev";
 			productName = RnNewArchitectureDemo;
-			productReference = 58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo copy.app */;
+			productReference = 58BDA2FB2CCF866D00DF7710 /* RnNewArchitectureDemo dev.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58BDA2FD2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2 */ = {
+		58BDA2FD2CCF866F00DF7710 /* RnNewArchitectureDemo stag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58BDA30B2CCF866F00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy 2" */;
+			buildConfigurationList = 58BDA30B2CCF866F00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo stag" */;
 			buildPhases = (
+				02B19D1B8F82BBD401426D74 /* [CP] Check Pods Manifest.lock */,
 				58BDA2FF2CCF866F00DF7710 /* Sources */,
 				58BDA3022CCF866F00DF7710 /* Frameworks */,
 				58BDA3042CCF866F00DF7710 /* Resources */,
 				58BDA3082CCF866F00DF7710 /* Bundle React Native code and images */,
+				416924AB5FF032F4F348446A /* [CP] Embed Pods Frameworks */,
+				A5D6540627182A713DF777AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "RnNewArchitectureDemo copy 2";
+			name = "RnNewArchitectureDemo stag";
 			productName = RnNewArchitectureDemo;
-			productReference = 58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2.app */;
+			productReference = 58BDA30E2CCF866F00DF7710 /* RnNewArchitectureDemo stag.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58BDA3102CCF867300DF7710 /* RnNewArchitectureDemo copy 3 */ = {
+		58BDA3102CCF867300DF7710 /* RnNewArchitectureDemo prod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58BDA31E2CCF867300DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy 3" */;
+			buildConfigurationList = 58BDA31E2CCF867300DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo prod" */;
 			buildPhases = (
+				6B1D606339A0D919B7564193 /* [CP] Check Pods Manifest.lock */,
 				58BDA3122CCF867300DF7710 /* Sources */,
 				58BDA3152CCF867300DF7710 /* Frameworks */,
 				58BDA3172CCF867300DF7710 /* Resources */,
 				58BDA31B2CCF867300DF7710 /* Bundle React Native code and images */,
+				A1CE5FD8F4200625997CC7BF /* [CP] Embed Pods Frameworks */,
+				D25B0844A30B3B28C416E52C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "RnNewArchitectureDemo copy 3";
+			name = "RnNewArchitectureDemo prod";
 			productName = RnNewArchitectureDemo;
-			productReference = 58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo copy 3.app */;
+			productReference = 58BDA3212CCF867300DF7710 /* RnNewArchitectureDemo prod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -334,9 +369,9 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* RnNewArchitectureDemo */,
 				00E356ED1AD99517003FC87E /* RnNewArchitectureDemoTests */,
-				58BDA2EA2CCF866D00DF7710 /* RnNewArchitectureDemo copy */,
-				58BDA2FD2CCF866F00DF7710 /* RnNewArchitectureDemo copy 2 */,
-				58BDA3102CCF867300DF7710 /* RnNewArchitectureDemo copy 3 */,
+				58BDA2EA2CCF866D00DF7710 /* RnNewArchitectureDemo dev */,
+				58BDA2FD2CCF866F00DF7710 /* RnNewArchitectureDemo stag */,
+				58BDA3102CCF867300DF7710 /* RnNewArchitectureDemo prod */,
 			);
 		};
 /* End PBXProject section */
@@ -408,21 +443,94 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		02B19D1B8F82BBD401426D74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		079F27EA451502E71B1576BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10D8852B896D2E5B5F2B30F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35BAAF89DF45AC034313CE19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		416924AB5FF032F4F348446A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		58BDA2F52CCF866D00DF7710 /* Bundle React Native code and images */ = {
@@ -473,7 +581,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		6B1D606339A0D919B7564193 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,14 +596,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		6D14A1C3C87B9332D9FC2A81 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,62 +618,157 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		8288039AE02DE5D9BBD8B413 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CE5FD8F4200625997CC7BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		A5D6540627182A713DF777AC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo/Pods-RnNewArchitectureDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		C125031F9DFF09212ED3F151 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27403DAE051F2D890D4D58B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25B0844A30B3B28C416E52C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52DB2285EC70DB6C66278F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C9ADAE3B026A428A6A2163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo/Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -628,7 +831,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.debug.xcconfig */;
+			baseConfigurationReference = BA994064877A697386E98AEC /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -655,7 +858,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RnNewArchitectureDemo-RnNewArchitectureDemoTests.release.xcconfig */;
+			baseConfigurationReference = 9E003C75A916C53328D712DD /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -679,7 +882,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C55D928B67BD233D742998BD /* Pods-RnNewArchitectureDemo.debug.xcconfig */;
+			baseConfigurationReference = 301596ABB39CC37B5DEB619B /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -706,7 +909,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC9B6708074990516FE02CF1 /* Pods-RnNewArchitectureDemo.release.xcconfig */;
+			baseConfigurationReference = 838A3D671DC441B5FFA3C3A2 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -731,13 +934,14 @@
 		};
 		58BDA2F92CCF866D00DF7710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0742DBBF3FA09C929AAFF390 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Development";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo dev-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Neflix-Dev";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -759,12 +963,13 @@
 		};
 		58BDA2FA2CCF866D00DF7710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1713925E4C9534CE7A2AEB68 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Development";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo dev-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Neflix-Dev";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -785,13 +990,14 @@
 		};
 		58BDA30C2CCF866F00DF7710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEE5C23678AC5EC808F677C /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy 2-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo stag-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Neflix-Staging";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -813,12 +1019,13 @@
 		};
 		58BDA30D2CCF866F00DF7710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11667D51FDE09B3C92FB68D3 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo stag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy 2-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo stag-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Neflix-Staging";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -839,13 +1046,14 @@
 		};
 		58BDA31F2CCF867300DF7710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BA0160FCCCC4BA27EDBB26 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Production";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy 3-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo prod-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Netflix-Prod";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -867,12 +1075,13 @@
 		};
 		58BDA3202CCF867300DF7710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8E964B877FE297DFAD3772 /* Pods-RnNewArchitectureDemoBase-RnNewArchitectureDemo prod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Production";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "RnNewArchitectureDemo copy 3-Info.plist";
+				INFOPLIST_FILE = "RnNewArchitectureDemo prod-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Netflix-Prod";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1072,7 +1281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58BDA2F82CCF866D00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy" */ = {
+		58BDA2F82CCF866D00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58BDA2F92CCF866D00DF7710 /* Debug */,
@@ -1081,7 +1290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58BDA30B2CCF866F00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy 2" */ = {
+		58BDA30B2CCF866F00DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo stag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58BDA30C2CCF866F00DF7710 /* Debug */,
@@ -1090,7 +1299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58BDA31E2CCF867300DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo copy 3" */ = {
+		58BDA31E2CCF867300DF7710 /* Build configuration list for PBXNativeTarget "RnNewArchitectureDemo prod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58BDA31F2CCF867300DF7710 /* Debug */,

@@ -6,6 +6,31 @@
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;rm &quot;${CONFIGURATION_BUILD_DIR}/${INFOPLIST_PATH}&quot;&#10;echo &quot;.env.development&quot; &gt; /tmp/envfile&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
+                     BuildableName = "RnNewArchitectureDemo dev.app"
+                     BlueprintName = "RnNewArchitectureDemo dev"
+                     ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;&quot;${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb&quot; &quot;${SRCROOT}/..&quot; &quot;${SRCROOT}/tmp.xcconfig&quot;&#10;">
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -16,8 +41,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
-               BuildableName = "RnNewArchitectureDemo copy.app"
-               BlueprintName = "RnNewArchitectureDemo copy"
+               BuildableName = "RnNewArchitectureDemo dev.app"
+               BlueprintName = "RnNewArchitectureDemo dev"
                ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +70,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
-            BuildableName = "RnNewArchitectureDemo copy.app"
-            BlueprintName = "RnNewArchitectureDemo copy"
+            BuildableName = "RnNewArchitectureDemo dev.app"
+            BlueprintName = "RnNewArchitectureDemo dev"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +87,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58BDA2EA2CCF866D00DF7710"
-            BuildableName = "RnNewArchitectureDemo copy.app"
-            BlueprintName = "RnNewArchitectureDemo copy"
+            BuildableName = "RnNewArchitectureDemo dev.app"
+            BlueprintName = "RnNewArchitectureDemo dev"
             ReferencedContainer = "container:RnNewArchitectureDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

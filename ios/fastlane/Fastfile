@@ -13,35 +13,15 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
-before_all do
-  ensure_git_branch(branch: 'feat-CICD-fastlane')
-  # ensure_git_status_clean
-  # git_pull
-end
-
 default_platform(:ios)
-
-FASTLANE_USER="shiv.tiwari@validusfintech.com"
-FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD="iosFastlaneBeta"
-
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
+    # Get latest certs appstore
+    match(type: 'appstore')
     increment_build_number(xcodeproj: "RnNewArchitectureDemo.xcodeproj")
-    build_app(workspace: "RnNewArchitectureDemo.xcworkspace", scheme: "RnNewArchitectureDemo dev", 
-    export_options: {
-      provisioningProfiles: {
-        "com.validusfintech.cicddemo" => "shiv-provisional-certificate"
-      }
-    })
-    upload_to_testflight(
-      username: "shiv.tiwari@validusfintech.com",
-      app_identifier: "com.validusfintech.cicddemo",
-      verbose: true
-    )
-  end
-  lane :certs do
-    match(app_identifier: 'com.validusfintech.cicddemo', type: 'appstore', readonly: true)
+    build_app(workspace: "RnNewArchitectureDemo.xcworkspace", scheme: "RnNewArchitectureDemo")
+    upload_to_testflight
   end
 end

@@ -1,0 +1,72 @@
+default_platform(:android)
+
+platform :android do
+  desc "🧪 Run unit tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "🚀 Deploy DEV flavor to Internal Testing"
+  lane :dev_internal do
+    gradle(task: "clean")
+    gradle(
+      task: "bundle",
+      flavor: "dev",
+      build_type: "Release"
+    )
+    upload_to_play_store(
+      track: 'internal',
+      json_key: "android/fastlane/keys/reactnativeignitekit-5b01e2ebe216.json",
+      package_name: "com.validus.ignitekit",
+      skip_upload_apk: true
+    )
+  end
+
+  desc "🧪 Deploy SIT flavor to Beta"
+  lane :sit_beta do
+    gradle(task: "clean")
+    gradle(
+      task: "bundle",
+      flavor: "sit",
+      build_type: "Release"
+    )
+    upload_to_play_store(
+      track: 'beta',
+      json_key: "android/fastlane/keys/reactnativeignitekit-5b01e2ebe216.json",
+      package_name: "com.validus.ignitekit",
+      skip_upload_apk: true
+    )
+  end
+
+  desc "🔒 Deploy UAT flavor to Closed Track"
+  lane :uat_closed do
+    gradle(task: "clean")
+    gradle(
+      task: "bundle",
+      flavor: "uat",
+      build_type: "Release"
+    )
+    upload_to_play_store(
+      track: 'closed',
+      json_key: "android/fastlane/keys/reactnativeignitekit-5b01e2ebe216.json",
+      package_name: "com.validus.ignitekit",
+      skip_upload_apk: true
+    )
+  end
+
+  desc "🏁 Deploy PROD flavor to Production"
+  lane :prod_release do
+    gradle(task: "clean")
+    gradle(
+      task: "bundle",
+      flavor: "prod",
+      build_type: "Release"
+    )
+    upload_to_play_store(
+      track: 'production',
+      json_key: "android/fastlane/keys/reactnativeignitekit-5b01e2ebe216.json",
+      package_name: "com.validus.ignitekit",
+      skip_upload_apk: true
+    )
+  end
+end

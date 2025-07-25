@@ -2,34 +2,28 @@
   "name": "reactnativeignitekit",
   "version": "0.0.1",
   "private": true,
-"scripts": {
-  "reset": "yarn node:clean && yarn android:clean && yarn start --reset-cache",
-  "android:clean": "rm -rf android/app/.cxx android/app/build android/build android/.gradle && cd android && ./gradlew clean || true",
-
-  "android:dev": "ENVFILE=.env.development yarn android:build:dev && yarn android:install:dev",
-  "android:build:dev": "cd android && ./gradlew assembleDevelopmentDebug",
-  "android:install:dev": "cd android && ./gradlew installDevelopmentDebug",
-  "android:dev-release": "ENVFILE=.env.development cd android && ./gradlew assembleDevelopmentRelease && ./gradlew installDevelopmentRelease",
-
-  "android:staging": "ENVFILE=.env.staging yarn android:build:staging && yarn android:install:staging",
-  "android:build:staging": "cd android && ./gradlew assembleStagingDebug",
-  "android:install:staging": "cd android && ./gradlew installStagingDebug",
-  "android:staging-release": "ENVFILE=.env.staging cd android && ./gradlew assembleStagingRelease && ./gradlew installStagingRelease",
-
-  "android:prod": "ENVFILE=.env.production yarn android:build:prod && yarn android:install:prod",
-  "android:build:prod": "cd android && ./gradlew assembleProductionDebug",
-  "android:install:prod": "cd android && ./gradlew installProductionDebug",
-  "android:prod-release": "ENVFILE=.env.production cd android && ./gradlew assembleProductionRelease && ./gradlew installProductionRelease",
-
-  "ios:dev": "ENVFILE=.env.development react-native run-ios --scheme development",
-  "ios:dev-release": "yarn ios:clean && ENVFILE=.env.development react-native run-ios --scheme development --configuration Release",
-
-  "ios:staging": "ENVFILE=.env.staging react-native run-ios --scheme staging",
-  "ios:staging-release": "yarn ios:clean && ENVFILE=.env.staging react-native run-ios --scheme staging --configuration Release",
-
-  "ios:prod": "ENVFILE=.env.production react-native run-ios --scheme production",
-  "ios:prod-release": "yarn ios:clean && yarn ios:bundle:assets && ENVFILE=.env.production react-native run-ios --scheme production --configuration Release"
-},
+  "scripts": {
+    "reset": "yarn node:clean && yarn android:clean && yarn start --reset-cache",
+    "android:clean": "rm -rf android/app/.cxx android/app/build android/build android/.gradle && cd android && ./gradlew clean || true",
+    "android:dev": "ENVFILE=.env.development yarn android:build:dev && yarn android:install:dev",
+    "android:build:dev": "cd android && ./gradlew assembleDevelopmentDebug",
+    "android:install:dev": "cd android && ./gradlew installDevelopmentDebug",
+    "android:dev-release": "ENVFILE=.env.development cd android && ./gradlew assembleDevelopmentRelease && ./gradlew installDevelopmentRelease",
+    "android:staging": "ENVFILE=.env.staging yarn android:build:staging && yarn android:install:staging",
+    "android:build:staging": "cd android && ./gradlew assembleStagingDebug",
+    "android:install:staging": "cd android && ./gradlew installStagingDebug",
+    "android:staging-release": "ENVFILE=.env.staging cd android && ./gradlew assembleStagingRelease && ./gradlew installStagingRelease",
+    "android:prod": "ENVFILE=.env.production yarn android:build:prod && yarn android:install:prod",
+    "android:build:prod": "cd android && ./gradlew assembleProductionDebug",
+    "android:install:prod": "cd android && ./gradlew installProductionDebug",
+    "android:prod-release": "ENVFILE=.env.production cd android && ./gradlew assembleProductionRelease && ./gradlew installProductionRelease",
+    "ios:dev": "ENVFILE=.env.development react-native run-ios --scheme development",
+    "ios:dev-release": "yarn ios:clean && ENVFILE=.env.development react-native run-ios --scheme development --configuration Release",
+    "ios:staging": "ENVFILE=.env.staging react-native run-ios --scheme staging",
+    "ios:staging-release": "yarn ios:clean && ENVFILE=.env.staging react-native run-ios --scheme staging --configuration Release",
+    "ios:prod": "ENVFILE=.env.production react-native run-ios --scheme production",
+    "ios:prod-release": "yarn ios:clean && yarn ios:bundle:assets && ENVFILE=.env.production react-native run-ios --scheme production --configuration Release"
+  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.0.0",
     "react": "18.3.1",

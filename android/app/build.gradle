@@ -87,20 +87,22 @@ android {
     compileSdk rootProject.ext.compileSdkVersion
 
     flavorDimensions "default"
+    
     productFlavors {
-        production {
-            applicationIdSuffix "rnnewarchitecturedemo.production"
-            resValue "string", "build_config_package", "com.validus.ignitekit"
-        }
-        staging {
-            applicationIdSuffix "rnnewarchitecturedemo.staging"
-            resValue "string", "build_config_package", "com.validus.ignitekit"
-        }
-        development {
-            applicationIdSuffix "rnnewarchitecturedemo.development"
-            resValue "string", "build_config_package", "com.validus.ignitekit"
-        }
+    production {
+        applicationIdSuffix ".production"
+        resValue "string", "build_config_package", "com.validus.ignitekit"
     }
+    staging {
+        applicationIdSuffix ".staging"
+        resValue "string", "build_config_package", "com.validus.ignitekit"
+    }
+    development {
+        applicationIdSuffix ".development"
+        resValue "string", "build_config_package", "com.validus.ignitekit"
+    }
+}
+
 
     namespace "com.validus.ignitekit"
     defaultConfig {

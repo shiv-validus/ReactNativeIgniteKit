@@ -80,3 +80,5 @@ yarn-error.log
 .env.staging
 .env.production
 
+
+.fake

@@ -18,20 +18,20 @@ end
 abstract_target 'RnNewArchitectureDemoBase' do
   # Shared pods go here, if any
   
-  target 'RnNewArchitectureDemo' do
-    # Pods for RnNewArchitectureDemo
+  target 'ReactNativeIgniteKit' do
+    # Pods for ReactNativeIgniteKit
   end
 
-  target 'RnNewArchitectureDemo dev' do
-    # Pods for RnNewArchitectureDemo dev
+  target 'ReactNativeIgniteKit dev' do
+    # Pods for ReactNativeIgniteKit dev
   end
 
-  target 'RnNewArchitectureDemo stag' do
-    # Pods for RnNewArchitectureDemo sit
+  target 'ReactNativeIgniteKit stag' do
+    # Pods for ReactNativeIgniteKit sit
   end
 
-  target 'RnNewArchitectureDemo prod' do
-    # Pods for RnNewArchitectureDemo prod
+  target 'ReactNativeIgniteKit prod' do
+    # Pods for ReactNativeIgniteKit prod
   end
   
   config = use_native_modules!
@@ -42,7 +42,7 @@ abstract_target 'RnNewArchitectureDemoBase' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'RnNewArchitectureDemoTests' do
+  target 'ReactNativeIgniteKitTests' do
     inherit! :complete
     # Pods for testing
   end

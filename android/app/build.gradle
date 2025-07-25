@@ -90,21 +90,21 @@ android {
     productFlavors {
         production {
             applicationIdSuffix "rnnewarchitecturedemo.production"
-            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
+            resValue "string", "build_config_package", "com.validus.ignitekit"
         }
         staging {
             applicationIdSuffix "rnnewarchitecturedemo.staging"
-            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
+            resValue "string", "build_config_package", "com.validus.ignitekit"
         }
         development {
             applicationIdSuffix "rnnewarchitecturedemo.development"
-            resValue "string", "build_config_package", "com.rnnewarchitecturedemo"
+            resValue "string", "build_config_package", "com.validus.ignitekit"
         }
     }
 
-    namespace "com.rnnewarchitecturedemo"
+    namespace "com.validus.ignitekit"
     defaultConfig {
-        applicationId "com.rnnewarchitecturedemo"
+        applicationId "com.validus.ignitekit"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2

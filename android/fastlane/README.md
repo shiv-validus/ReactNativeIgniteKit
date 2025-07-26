@@ -23,13 +23,13 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 🧪 Run unit tests
 
-### android dev_internal
+### android development_internal
 
 ```sh
-[bundle exec] fastlane android dev_internal
+[bundle exec] fastlane android development_internal
 ```
 
-🚀 Deploy DEV flavor to Internal Testing
+🚀 Deploy DEVELOPMENT flavor to Internal Testing
 
 ### android sit_beta
 
@@ -37,7 +37,7 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 [bundle exec] fastlane android sit_beta
 ```
 
-🧪 Deploy SIT flavor to Beta
+🧪 Deploy SIT flavor to Open Testing (Beta)
 
 ### android uat_closed
 
@@ -45,15 +45,15 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 [bundle exec] fastlane android uat_closed
 ```
 
-🔒 Deploy UAT flavor to Closed Track
+🔒 Deploy UAT flavor to Closed Testing
 
-### android prod_release
+### android production_release
 
 ```sh
-[bundle exec] fastlane android prod_release
+[bundle exec] fastlane android production_release
 ```
 
-🏁 Deploy PROD flavor to Production
+🏁 Deploy PRODUCTION flavor to Production
 
 ----
 

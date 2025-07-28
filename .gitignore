@@ -86,3 +86,4 @@ fastlane/keys/*.json
 
 # 🔐 Android keystore files (highly sensitive)
 android/keystores/*.jks
+!android/keystores/your-app-upload-key.jks

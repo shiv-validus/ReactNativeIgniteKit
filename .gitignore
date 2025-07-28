@@ -76,6 +76,7 @@ yarn-error.log
 # ❗️Ignore all environment files (currently included only for testing/demo purposes)
 # NOTE: These will be removed in production. Do not include real credentials or secrets.
 .env*
+!.env.signing.example
 
 # Ignore service account credentials
 android/fastlane/keys/*.json

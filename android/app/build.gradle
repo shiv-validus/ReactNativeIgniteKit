@@ -54,7 +54,7 @@ android {
         applicationId       "com.validus.ignitekit"
         minSdkVersion       rootProject.ext.minSdkVersion
         targetSdkVersion    rootProject.ext.targetSdkVersion
-        versionCode         17
+        versionCode         22
         versionName         "1.2"
     }
 
